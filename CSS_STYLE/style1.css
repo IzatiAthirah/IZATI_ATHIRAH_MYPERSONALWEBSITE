@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: grey;
+}
+ ul
+  {
+     list-style-type: none;
+     margin-left:auto;
+     margin-left:auto;
+     padding: 400px, 300px;
+     overflow: hidden;
+     background-color: black;
+     width: 100%;
+     float: right;
+     height: 80px;
+     position: sticky;
+     top:10%;
+  }
+
+  li
+  {
+    float: left;
+    text-decoration: inherit;
+    text-decoration-color: black;
+  }
+
+  li a
+  {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 31.5px;
+    text-decoration: black;
+
+  }
+
+  li a:hover
+  {
+    background-color: grey;
+    text-decoration-color: black;
+  }
+  
+      footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        text-decoration-color: white;
+        padding: 20px;
+        height: 40%;
+      }
+
+
+
+
+ .footer {
+   position: bottom;
+   background-color: black;
+   color: white;
+   margin-bottom: 0;
+   width: 100%;
+   margin-top: 50px;
+   padding:20px 5px 40px 5px;
+  }

@@ -1,0 +1,156 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: grey;
+}
+ ul
+  {
+     list-style-type: none;
+     margin-left:auto;
+     margin-left:auto;
+     padding: 400px, 300px;
+     overflow: hidden;
+     background-color: black;
+     width: 100%;
+     float: right;
+     height: 80px;
+     position: sticky;
+     top:10%;
+  }
+
+  li
+  {
+    float: left;
+    text-decoration: inherit;
+    text-decoration-color: black;
+  }
+
+  li a
+  {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 31.5px;
+    text-decoration: black;
+
+  }
+
+  li a:hover
+  {
+    background-color: grey;
+    text-decoration-color: black;
+  }
+  
+      footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        text-decoration-color: white;
+        padding: 20px;
+        height: 40%;
+      }
+
+
+
+
+
+.row {
+  padding-top:0;
+  box-sizing: border-box;
+  height: 200%;
+  border: 100%;
+}
+.column1 {
+  float: left;
+  margin: 0 0 0 5px;
+  width: 60%;
+  padding: 10px;
+  height: 300%;
+  border: 100%;
+}
+.column2 {
+  float: right;
+  width: 27.6%;
+  padding: 30px;
+  margin: 10px;
+  height: 300%;
+  border:2px solid black;
+  border: 200%;
+  background-color: beige;
+  
+}
+.box:after {
+  content: "";
+  display: table;
+  clear: both;
+  height: 200%;
+}
+
+.column1 img {
+  width: 80%;
+  height: 40%;
+  margin:50px 20px 0 60px;
+  border: 3px solid black;
+  border-radius: 16px;
+}
+.column2 h3{
+  border: 4px dotted darkkhaki;
+  text-align: center;
+  font-size: 26px;
+  font-family: 'sans-serif;'serif,Garamond;
+  font-weight: 800;
+  height: 30px;
+}
+.column1 p{
+  border: black;
+  width: 90%;
+  text-align: justify;
+  color: black;
+  font-size: 20px;
+  font-family: 'Courier New', italic, Courier, monospace;
+  margin: 10px 20px 0 55px;
+}
+
+.column2 h3{
+  border: 4px dotted darkkhaki;
+  text-align: center;
+  font-size: 26px;
+  font-family: 'sans-serif;'serif,Garamond;
+  font-weight: 800;
+  height: 30px;
+}
+
+.column2 img {
+  width: 70%;
+  height: 70%;
+  margin:90px 50px 0 90px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+.caption {
+  margin: 10px 20px 0 90px;
+}
+
+.image {
+  height: 10px;
+  width: 20px;
+  padding: 0%;
+  border: black;
+  border-collapse: inherit;
+}
+
+
+
+ .footer {
+   position: bottom;
+   background-color: black;
+   color: white;
+   margin-bottom: 0;
+   width: 100%;
+   margin-top: 50px;
+   padding:20px 5px 40px 5px;
+  }
+
